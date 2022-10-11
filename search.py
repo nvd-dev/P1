@@ -198,7 +198,6 @@ def aStarSearch(problem, heuristic=nullHeuristic):
                 next_cost = problem.getCostOfActions(next_step) + heuristic(successor, problem)
                 frontier.push((successor, next_step), next_cost)
 
-
     "*** YOUR CODE HERE ***"
     util.raiseNotDefined()
 
